@@ -1,0 +1,90 @@
+body {
+	background-color: #F9F9F9;
+	display: flex;
+    font-family: arial, "font-awesome";
+}
+.app {
+    /* height: 600px; */
+    width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 3px 0px rgba(239,239,239,1);
+}
+
+.msg-title {
+    color: #454545;
+	font-weight: bold;
+	padding: 5px;
+}
+.msg img {
+    height: 50px; width: 50px;
+    border-radius: 5px;
+}
+.top-input, .bottom-msgs {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.top-input {
+    /* height: 21%; */
+    background: #EFEFEF;
+    text-align: right;
+    padding-bottom: 15px;
+}
+.bottom-msgs {
+    overflow-y: auto;
+    background: white;
+    max-height: 500px;
+}
+/*.top-input .field:placeholder {
+    color: #EFEFEF;
+}*/
+input, .top-input .field {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #C8C8C8;
+}
+input {
+    padding-left: 10px;
+    height: 40px;
+}
+textarea.field {
+    font-family: arial;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 75px;
+}
+.submit {
+    color: white;
+    background: #42A7DF;
+    /* width: 75px; */
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: arial;
+    user-select: none;
+    border: none;
+}
+.submit:hover {
+    color: #d6d6d6;
+}
+.submit:active {
+    background: #2188c0;
+}
+/*
+//TODO
+.filter:placeholder:::before {
+    content: ' \f002'
+}*/
+.msg {
+    display: flex;
+    padding: 10px 0;
+}
+.msg-content {
+    padding-left: 5px;
+    color: grey;
+}
